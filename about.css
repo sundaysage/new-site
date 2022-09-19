@@ -1,0 +1,46 @@
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rbga(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light-green:rgb(91, 229, 209);
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.aboutme {
+  text-align: center;
+}
+.divme{
+  width: 100%;
+}
+
+.me2 {
+  width: 70%;
+  border-radius: 20px;
+
+}
+.aboutbox{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.aboutboxs {
+  border: 0.5px solid;
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: var(--color-bg-variant)
+}
+.aboutboxs:hover{
+  transform: translateX(30px);
+  /* transform: rotateZ(20deg); */
+  animation: ease-in-out 5s;
+}

@@ -1,0 +1,32 @@
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rbga(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+.introDiv {
+  text-align: center;
+}
+.flexCV a {
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+}
+.flexCV  :hover {
+  background-color:var(--color-bg-variant);
+  box-shadow: 0px 0px 12px 0px ;
+}
+.meimg {
+  width: 70%;
+  border-radius: 10px;
+}
+.mediv {
+  margin-top: 10px;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+}
