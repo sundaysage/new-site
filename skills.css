@@ -37,7 +37,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 40px;
 }
 .Contactme div{
     border: 1px solid;
